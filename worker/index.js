@@ -143,7 +143,7 @@ export default {
 
     // 2. Cache miss — generate, validate, store, serve.
     try {
-      const spec = await generateSpec(statusText, env.ANTHROPIC_API_KEY);
+      const spec = await generateSpec(statusText, env.ANTHROPIC_API_KEY, env.ANTHROPIC_WORKSPACE_ID);
       await env.CHOREO_CACHE.put(key, JSON.stringify(spec));
       return jsonResponse({ spec, cached: false });
     } catch (err) {
