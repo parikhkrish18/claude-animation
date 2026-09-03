@@ -5,7 +5,7 @@ compatibility_date = "2024-09-01"
 # Create with: wrangler kv namespace create CHOREO_CACHE
 # Then paste the returned id below.
 kv_namespaces = [
-  { binding = "CHOREO_CACHE", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+  { binding = "CHOREO_CACHE", id = "4fafc8ea69c74d768e733ef1e873d2d9" }
 ]
 
 # Set the secret with: wrangler secret put ANTHROPIC_API_KEY
