@@ -9,3 +9,6 @@ kv_namespaces = [
 ]
 
 # Set the secret with: wrangler secret put ANTHROPIC_API_KEY
+
+[vars]
+ANTHROPIC_WORKSPACE_ID = "wrkspc_01WYt41dcTnNTeTZWoGii9Xr"
